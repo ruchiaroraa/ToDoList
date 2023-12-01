@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Roboto&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    color: #D7C0AE;
+}
+html , body {
+    background-color: #967E76;
+    
+}
+h1{
+    font-size: x-large;
+    text-align: center;
+    margin: 30px;
+    color:  #967E76;
+}
+.container{
+    background-color: #EEE3CB;
+    width: 70%;
+    margin: auto;
+    min-height: 100vh;
+    padding: 30px;
+    box-sizing: border-box;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input , textarea , button {
+    padding: 10px;
+    border: 1px solid #967E76;
+    margin: 10px;
+    border-radius: 5px;
+    color:#D7C0AE
+}
+.addbtn{
+    background-color: #967E76 ;
+    color: white;
+    cursor: pointer;
+}
+
+
+.task{
+    background-color: #D7C0AE;
+    padding: 30px;
+    display: flex;
+    color:#967E76;
+    align-items: center;
+    margin: 2vmax;
+}
+.task > div {
+    width: 100%;
+}
+
+.task span  {
+    color: rgba(0, 0, 0, 0.632);
+}
+.task p{
+    color: rgba(0, 0, 0, 0.632); 
+}
+
+.editbtn{
+    border: 1px solid rgba(0,0,0,0.2);
+    display: flex;
+    margin-right: 5px;
+    background-color:  #008CBA;
+    color: white;
+}
+.deletebtn{
+    border: 1px solid rgba(0,0,0,0.2);
+    background-color: crimson;
+    color: white;
+}
+
